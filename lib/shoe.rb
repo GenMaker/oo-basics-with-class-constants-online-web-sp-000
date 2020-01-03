@@ -20,7 +20,7 @@ class Shoe
       if brd != brand
         BRAND << brd
       else
-        BRAND
+        BRAND.
       end
     end
     end
