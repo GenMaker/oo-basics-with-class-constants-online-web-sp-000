@@ -19,6 +19,8 @@ class Shoe
     BRAND.each do |brd|
       if brd != brand
         BRAND << brd
+      else
+        BRAND
       end
     end
     end
