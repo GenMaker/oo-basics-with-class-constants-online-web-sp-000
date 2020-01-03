@@ -11,7 +11,16 @@ class Shoe
     # else
     #   BRANDS << brand
     #end
+    BRANDS << brand
+    
   end
+
+  def self.unique?(brand)
+    BRAND.each do |brd|
+      if brd != brand
+        BRAND << brd
+      end
+    end
 
   def cobble
     self.condition = "new"
