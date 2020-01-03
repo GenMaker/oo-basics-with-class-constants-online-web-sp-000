@@ -12,7 +12,7 @@ class Shoe
     #   BRANDS << brand
     #end
     BRANDS << brand
-    
+
   end
 
   def self.unique?(brand)
@@ -20,6 +20,7 @@ class Shoe
       if brd != brand
         BRAND << brd
       end
+    end
     end
 
   def cobble
